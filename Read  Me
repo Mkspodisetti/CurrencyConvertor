@@ -1,0 +1,36 @@
+## Manual Currency Converter 
+
+This is a simple manual currency converter web app built with **React** for the frontend and **Flask** for the backend.  
+It allows users to convert an amount from one currency to another using **manually defined exchange rates** — no external API needed.
+
+---
+
+##  **How It Works**
+
+- **Frontend**: Built with React — provides an interactive UI for users to select currencies, enter an amount, and see the converted value instantly.
+- **Backend**: Built with Flask — serves conversion logic and a currency list using fixed exchange rates defined in Python.
+- Uses **CORS** to allow the React app to communicate with the Flask server.
+
+---
+
+##  **Features**
+
+✅ Convert between major currencies: USD, EUR, GBP, JPY, AUD, CAD, INR, CHF, CNY  
+✅ Returns conversion rate, converted amount, and currency details  
+✅ Handles invalid inputs and unsupported currencies gracefully  
+✅ Runs fully offline — no third-party API calls
+
+---
+
+###  **Backend (Flask)**
+
+```bash
+# Install dependencies
+pip install flask flask-cors
+
+# Run the Flask server
+python app.py
+
+## 📄 License
+
+This project is for learning purposes. Feel free to modify and reuse it!
