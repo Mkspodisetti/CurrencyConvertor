@@ -1,0 +1,19 @@
+.converter-container {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  background: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.converter-title {
+  color: var(--primary-blue);
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Rest of your converter styles from previous implementation */
+/* ... (keep all the currency converter styles from earlier) ... */
